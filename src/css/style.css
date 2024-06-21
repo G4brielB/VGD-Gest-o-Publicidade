@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+section {
+    display: flex;
+}
+
+body {
+    background-color: #dfdfdf;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #272727;
+    font-weight: 900;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: #4c00ff ;
+    padding: 20px;   
+}
+/* inicio do menu */
+.cabecalho {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 5px #4c00ff;
+    flex-grow: 10;
+    justify-content: space-around;
+    background-color: #cfdcff;
+}
+
+.cabecalho nav {
+    align-items: center;
+}
+
+.cabecalho ul {
+    display: flex;
+    margin: 0px 20px;
+}
+
+.cabecalho ul li {
+    margin: 0px 20px;
+    list-style-type: none;
+}
+
+
+.logo {
+    height: 70px;
+    padding: 5px 5px 5px 10px;
+}
+ /*fim do menu*/ 
+
+
+
+.servicos-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.formulario {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.formulario input {
+    background-color: #bea2ff;
+    padding: 10px;
+    width: 300px;
+
+}
+.formulario label {
+    justify-content: center;
+
+}
+
+.formulario input:nth-child(3) {
+    border-radius: 30px;
+    background-color: aqua;
+    margin: 20px 20px 20px 60px;
+}
+
+.text-default{
+    background-color: rgba(9, 69, 219, 0.3);
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    font-size: 1.6em;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+ }
+
+ .text-default p {
+    padding: 1.6em;
+ }
+
+ .footer-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ .profile {
+    margin: 10px 0px 0px 0px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: solid 2px #4c00ff;
+    
+ }
